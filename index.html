@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rasoi | Home</title>
+  <link rel="stylesheet" href="resources/css/styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Background Video */
+    #bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -2;
+      opacity: 0.8;
+      animation: fadeInOut 10s ease-in-out infinite;
+    }
+
+    @keyframes fadeInOut {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .navbar {
+      position: relative;
+      z-index: 2;
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #f4a261;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #f4a261;
+    }
+
+    .order-btn {
+      padding: 0.6rem 1.2rem;
+      background-color: #f4a261;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .order-btn:hover {
+      background-color: #e76f51;
+    }
+
+    .hero {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      top: 25%;
+      transform: translateY(-25%);
+      padding: 0 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      width: 100%;
+      text-align: center;
+      color: #ddd;
+      font-size: 0.9rem;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <!-- ✅ Background Video (Local File) -->
+  <video autoplay muted loop id="bg-video">
+    <source src="restaurant-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Rasoi</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="reviews.html">Reviews</a>
+    </div>
+    <a href="menu.html" class="order-btn">Order From Here</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to Rasoi</h1>
+    <p>Authentic Indian Cuisine Crafted with Passion</p>
+  </div>
+
+  <footer>&copy; 2025 Rasoi. All rights reserved.</footer>
+</body>
+</html>
