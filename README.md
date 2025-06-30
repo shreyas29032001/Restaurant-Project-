@@ -41,25 +41,36 @@ A **responsive multi-page restaurant website** built with **HTML** and **CSS**, 
 ---
 
 ## 📂 Project Structure
+![image](https://github.com/user-attachments/assets/079889de-61f5-4a67-8de2-4e826c141a17)
+
 
 
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](images/home.png)
+![Home Page](https://github.com/user-attachments/assets/84770572-e186-4dd9-aa67-450999ce258d)
+)
 
 ---
 
 ### 📋 Menu Page
-![Menu Page](images/menu.png)
+![Menu Page](https://github.com/user-attachments/assets/631c176b-0cae-48d2-89f6-bc7429f967dd)
+)
 
 ---
 
 ### ✉️ Contact Page
-![Contact Page](images/contact.png)
+![Contact Page](https://github.com/user-attachments/assets/9367a7f1-4cb5-43f1-95b7-bde147b1069d)
+act.png)
 
 ---
 
 ### ℹ️ About Page
-![About Page](images/about.png)
+![About Page](https://github.com/user-attachments/assets/75b0a780-7c72-45e0-8cfa-9559ccf3ed52)
+)
+## 🚀 Setup Instructions
 
+1. **Clone this repository**
+
+   ```bash
+   git clone https://github.com/your-username/rasoi-restaurant-website.git
